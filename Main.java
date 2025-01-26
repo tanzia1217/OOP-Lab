@@ -1,20 +1,5 @@
 public class Main {
 
-    /*public static void prime (int p) {
-        if (p < 2) {
-            System.out.println(p + "is not prime");
-        }
-        for (int i = 2; i * i <= p; i++) {
-            if (p % i == 0) {
-                System.out.println(p + "is not prime");
-                break;
-            } else {
-                System.out.println(p + "is prime");
-            }
-        }
-    }
-*/
-
     public static void primeCheck(int p) {
 
         if (p < 2){
