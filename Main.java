@@ -27,16 +27,16 @@ public class Main {
             sum += a[i];
         }
 
-        System.out.println("sum");
+        System.out.println("Sum= "+sum);
 
-        System.out.println("Avg=" + sum / 6);
+        System.out.println("Avg= " + sum / 6);
 
         for (int i = 0; i < a.length; i++) {
             if (a[i] % 2 == 0) {
-                System.out.println("Even Number=" + a[i]);
+                System.out.println("Even Number= " + a[i]);
                 break;
             } else
-                System.out.println("Odd Number=" + a[i]);
+                System.out.println("Odd Number= " + a[i]);
 
         }
 
@@ -45,22 +45,31 @@ public class Main {
         for (int i = 1; i <= 100; i++) {
             sum += i;
         }
-        System.out.println(sum);
+        System.out.println("Sum of 1-100: "+sum);
 
 
         int s = 25;
+
+        System.out.println("Multiplication Table of 25: ");
         for (int i = 1; i <= 10; i++) {
+
             System.out.println(s * i);
         }
 
 
-        int x = 7, y = 11, z = 2;
+        int x = 7, y = 11, z = 5;
+
         if (x > y)
-            System.out.println("Largest=" + x);
+        {
+            System.out.println("Largest= " + x);
+        }
         else if (y > z)
-        {System.out.println("Largest=" + y);}
-        else
-            System.out.println("Largest=" + z);
+        {
+            System.out.println("Largest= " + y);
+        }
+        else {
+            System.out.println("Largest= " + z);
+        }
 
 
 
@@ -68,3 +77,4 @@ public class Main {
 
         }
     }
+
