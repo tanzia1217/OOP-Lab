@@ -7,7 +7,6 @@ class InvalidVoterIDException extends Exception {
 
 }
 
-
  class ExceptionHandling {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
