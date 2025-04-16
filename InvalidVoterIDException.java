@@ -10,7 +10,7 @@ class InvalidVoterIDException extends Exception {
  class ExceptionHandling {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter Your Age : ");
+        System.out.println("Enter Your Age : ");
         int age = scanner.nextInt();
         try {
             if (age < 18) {
